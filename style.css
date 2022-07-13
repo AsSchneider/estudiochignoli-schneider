@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*header*/
+.navegacion ul{
+    list-style: none;
+}
+.navegacion ul li a{
+    color: white;
+    text-decoration:none;  
+    margin: 20px; 
+}
+.cabecera{
+    background-color: rgb(68, 62, 62);
+    width: 100%; 
+} 
+.logo{
+    width: 100px;
+    padding: 20px;
+}
+.nav__lista{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav__lista__item{
+    margin-bottom: 30px;
+}
+.ani{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
+}
+body{
+    font-family: 'Red Hat Mono', monospace;
+    background-color:white;
+}
+
+/*html home*/
+.frente{
+width: 700px;
+padding: 50px;
+}
+.principal{
+    text-align:center;
+    background-color: rgb(133, 124, 124);
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+}
+.profesionales{
+    text-align: center;
+    padding: 50px;
+}
+
+/*html estudio*/
+.nuestro{
+    text-align: center;
+    padding: 50px;
+}
+.textoEstudio{
+    line-height: 300%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.fotofondo{
+    background-color: white
+}
+
+/*html areas*/
+.terreno{
+    text-align: center;
+    padding: 50px;
+}
+.derechos__lista{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.derechos__lista__item{
+    margin: 10px;
+}
+
+/*html nosotros*/
+.container{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.mini-container{
+    text-align: center;
+    margin-bottom: 20px;    
+}
+.quienes{
+    text-align: center;
+    margin-top: 30px;
+}
+.creador__lista{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.creador__lista__item{
+    margin: 20px;
+}
+.contenedor__grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.contenedor__grid__item{
+    margin-left: 50px;
+}
+
+/*html contacto*/
+.contacto{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.tit{
+    margin-bottom: 20px;
+}
+.titu{
+    margin-bottom: 20px;
+}
+.enviar{
+    margin-top: 20px;
+}
+
+/* footer*/
+.pie{
+    background-color: rgb(179, 174, 174);
+}
+.direccion{
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+.redes__lista{
+    display: flex;
+    justify-content:center;
+}
+.redes__lista__item{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.face{
+    width: 40px;
+}
+.insta{
+    width: 40px;
+}
+.linke{
+    width: 40px;
+}
+.copi{
+    display: flex;
+    justify-content: end;
+
+}
+.wsp{
+    width: 40px;
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+}
+
+/*@mediaq*/
+@media screen and (max-width: 375px){
+    body{
+        font-size: 13px;
+    }
+    .nav__lista{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+    }
+    .cabecera{
+        display: flex;
+        align-items: center;
+    }
+    .contenedor__grid__item{
+        margin-left: 30px;
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .galeria__card__imagen{
+        width: 150px;
+
+    }
+    .profesionales{
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .frente{
+        width: 270px;
+    }
+    .terreno{
+        padding: 5px;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .ti{
+        text-align: center;
+    }
+    .tit{
+        text-align: center;
+    }
+    .titu{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    iframe{
+        width: 270px;
+        height: 200px;
+    }
+    .wsp{
+        right: 0px;
+        top: 235px;
+    }
+}
+    
