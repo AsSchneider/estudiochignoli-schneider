@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
+}
+/*header*/
+.cabecera{
+    width: 100%;
+    background-color: map-get($colores, "coloruno");
+}
+.pie{
+    background-color: map-get($colores, "colortres");
+}
+body{
+    background-color: map-get($colores, "colordos");    
+}
+#navbarNavAltMarkup{
+    justify-content: end;
+}
+.nav-link{
+    margin: 15px;
+    font-size: 1.3rem;
+    color: #adb5bd;
+}
+.nav-link:hover{
+    transform: scale(1.3);
+    transition: all 2s;
+    color: #adb5bd;
+}
+.logo{
+    width: 100px;
+}
+.logo:hover{
+    transform: scale(1.3);
+    transition: all 2s;
+}
+body{
+    font-family: 'Red Hat Mono', monospace;
+    text-align: center;
+}
+/*footer*/
+.direccion{
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+.redes__lista{
+    display: flex;
+    justify-content:center;
+}
+.bi{
+    color: white;
+    font-size: 30px;
+}
+.redes__lista__item{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.redes__lista__item:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+}
+.copi{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+.wsp{
+    width: 40px;
+    position: fixed;
+    right: 0px;
+    top: 150px;
+}
+.wsp:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+}
