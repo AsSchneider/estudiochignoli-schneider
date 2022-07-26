@@ -1,0 +1,52 @@
+.frente{
+    width: 700px;
+    padding: 50px;
+    }
+    .principal{
+        text-align:center;   
+    }
+    .profesionales{
+        font-size: 28px;
+    }
+    .img-fluid{
+        margin-top: 20px;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        text-align: center;
+        padding: 100px;
+
+        &__card__imagen:hover{
+            transform: scale(1.05);
+            transition: all 2s;
+        }
+    }
+
+    .profesionales{
+        text-align: center;
+        padding: 50px;
+    }
+    @media screen and (max-width:320px){
+
+        .galeria{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .galeria__card__imagen{
+            width: 150px;
+    
+        }
+        .img-fluid{
+            margin-top: 0px;
+        }
+        .profesionales{
+            padding: 10px;
+            margin-top: 30px;
+        }
+    
+    
+    }
+    

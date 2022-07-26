@@ -3,7 +3,7 @@
     padding:0;
 }
 
-/*header*/
+/*header
 
 .cabecera{
     background-color: rgb(68, 62, 62);
@@ -43,6 +43,7 @@ body{
 }
 
 /*html home*/
+/*
 .frente{
 width: 700px;
 padding: 50px;
@@ -70,7 +71,7 @@ padding: 50px;
     padding: 50px;
 }
 
-/*html estudio*/
+/*html estudio
 .nuestro{
     text-align: center;
     padding: 50px;
@@ -84,7 +85,7 @@ padding: 50px;
     background-color: white
 }
 
-/*html nosotros*/
+/*html nosotros
 .container{
     text-align: center;
     margin-top: 50px;
@@ -117,7 +118,7 @@ padding: 50px;
    
 }
 
-/*html contacto*/
+/*html contacto
 .contacto{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -136,7 +137,7 @@ padding: 50px;
 
 }
 
-/* footer*/
+/* footer
 .pie{
     background-color: rgb(179, 174, 174); 
 }
@@ -179,7 +180,7 @@ padding: 50px;
     transition: all 2s;
 }
 
-/*@mediaq*/
+/*@mediaq
 @media screen and (max-width: 320px){
     body{
         font-size: 13px;

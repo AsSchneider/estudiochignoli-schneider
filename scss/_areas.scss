@@ -1,10 +1,8 @@
 .nuestro{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    @extend .text;
 }
 .terreno{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    @extend .text;
 }
 .derechos__lista{
     text-align: center;
@@ -15,3 +13,12 @@
         margin: 20px;
     }
 }
+@media screen and(max-width :320px){
+    .terreno{
+        margin-top: 50px;
+    }
+    .nuestro{
+        margin-bottom: 20px;
+        }
+}
+

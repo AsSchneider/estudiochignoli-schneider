@@ -1,0 +1,41 @@
+.contacto{
+    @include lolo (space-evenly);
+    padding: 50px;
+}
+.tit{
+    margin-bottom: 20px;
+}
+.titu{
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: gray;
+    margin-top: 30px;
+}
+@media screen and(max-width:320px){
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .ti{
+        text-align: center;
+    }
+    .tit{
+        text-align: center;
+    }
+    .titu{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    iframe{
+        width: 230px;
+        height: 200px;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+
+
+
+}

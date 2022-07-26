@@ -1,9 +1,19 @@
 
 $colores: (
-    "coloruno":rgb(120, 156, 185),
-    "colordos": #dbd4d4,
-    "colortres":#b3aeae
+    "coloruno":rgb(140, 164, 184),
+    "colordos": #eee4e4,
+    "colortres":#cec8c8
 );
+@mixin lolo ($justi) {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: $justi;   
+}
+.text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 
 
