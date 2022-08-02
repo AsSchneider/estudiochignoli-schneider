@@ -18,6 +18,7 @@
 }
 .creador__lista__item{
     margin: 20px;
+    list-style: none
 
 }
 .contenedor__grid{
@@ -26,6 +27,7 @@
 
     &__item{
         margin-right: 100px;
+        list-style: none;
     }
 }
 @media screen and (max-width: 320px){

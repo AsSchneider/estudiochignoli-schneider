@@ -93,6 +93,10 @@ body {
   transform: scale(1.5);
   transition: all 2s; }
 
+.textoEstudio {
+  margin: 100px;
+  margin-top: 10px; }
+
 .derechos__lista {
   text-align: center;
   margin-bottom: 100px; }
@@ -104,7 +108,10 @@ body {
   .terreno {
     margin-top: 50px; }
   .nuestro {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .textoEstudio {
+    margin: 10px;
+    margin-top: 0px; } }
 
 .frente {
   width: 700px;
@@ -132,6 +139,19 @@ body {
 .profesionales {
   text-align: center;
   padding: 50px; }
+
+@media screen and (max-width: 768px) {
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; }
+  .galeria__card__imagen {
+    width: 150px; }
+  .img-fluid {
+    margin-top: 0px; }
+  .profesionales {
+    padding: 10px;
+    margin-top: 30px; } }
 
 @media screen and (max-width: 320px) {
   .galeria {
@@ -174,7 +194,8 @@ body {
   justify-content: center; }
 
 .creador__lista__item {
-  margin: 20px; }
+  margin: 20px;
+  list-style: none; }
 
 .contenedor__grid {
   display: grid;
@@ -182,7 +203,8 @@ body {
   justify-content: center;
   margin-bottom: 100px; }
   .contenedor__grid__item {
-    margin-right: 100px; }
+    margin-right: 100px;
+    list-style: none; }
 
 @media screen and (max-width: 320px) {
   .contenedor__grid__item {
@@ -204,6 +226,24 @@ body {
 .btn {
   background-color: gray;
   margin-top: 30px; }
+
+@media screen and (max-width: 768px) {
+  .contacto {
+    display: flex;
+    flex-direction: column; }
+  .ti {
+    text-align: center; }
+  .tit {
+    text-align: center; }
+  .titu {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  iframe {
+    width: 230px;
+    height: 200px; }
+  .btn {
+    margin-top: 10px; } }
 
 @media screen and (max-width: 320px) {
   .contacto {
