@@ -1,6 +1,7 @@
 .text, .nuestro, .terreno, .container {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  color: #7e1919; }
 
 * {
   margin: 0;
@@ -13,7 +14,7 @@ h1 {
 /*header*/
 .cabecera {
   width: 100%;
-  background-color: #8ca4b8; }
+  background-color: #20547e; }
 
 .pie {
   background-color: #cec8c8; }
@@ -27,7 +28,7 @@ body {
 .nav-link {
   margin: 15px;
   font-size: 1.3rem;
-  color: #121313; }
+  color: white; }
 
 .nav-link:hover {
   transform: scale(1.3);
@@ -57,7 +58,7 @@ body {
 
 /*footer*/
 .direccion {
-  color: white;
+  color: #121313;
   display: flex;
   justify-content: center; }
 
@@ -66,7 +67,7 @@ body {
   justify-content: center; }
 
 .bi {
-  color: white;
+  color: #121313;
   font-size: 30px; }
 
 .redes__lista__item {
@@ -81,7 +82,7 @@ body {
 .copi {
   display: flex;
   justify-content: end;
-  color: white; }
+  color: #121313; }
 
 .wsp {
   width: 40px;
@@ -92,6 +93,11 @@ body {
 .wsp:hover {
   transform: scale(1.5);
   transition: all 2s; }
+
+.mapa {
+  background-image: linear-gradient(rgba(250, 246, 246, 0.815), rgba(173, 169, 169, 0.651)), url(../imagenes/mapa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .textoEstudio {
   margin: 100px;
@@ -113,18 +119,24 @@ body {
     margin: 10px;
     margin-top: 0px; } }
 
-.frente {
-  width: 700px;
-  padding: 50px; }
+.ani {
+  position: relative; }
+
+.stafe {
+  width: 100%;
+  height: 350px;
+  opacity: 0.5; }
 
 .principal {
-  text-align: center; }
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  color: #2b2828;
+  font-family: Cambria, Cochin,'Times New Roman'; }
 
 .profesionales {
-  font-size: 28px; }
-
-.img-fluid {
-  margin-top: 20px; }
+  font-size: 28px;
+  margin-top: 100px; }
 
 .galeria {
   display: grid;
@@ -142,16 +154,18 @@ body {
 
 @media screen and (max-width: 768px) {
   .galeria {
-    display: flex;
-    flex-direction: column;
-    padding: 20px; }
+    display: flex; }
   .galeria__card__imagen {
-    width: 150px; }
-  .img-fluid {
-    margin-top: 0px; }
+    width: 150px;
+    margin: 30px; }
   .profesionales {
     padding: 10px;
-    margin-top: 30px; } }
+    margin-top: 70px;
+    margin-bottom: 5px; }
+  .principal {
+    top: 300px;
+    left: 45px;
+    right: 45px; } }
 
 @media screen and (max-width: 320px) {
   .galeria {
@@ -160,22 +174,27 @@ body {
     padding: 20px; }
   .galeria__card__imagen {
     width: 150px; }
-  .img-fluid {
-    margin-top: 0px; }
   .profesionales {
     padding: 10px;
-    margin-top: 30px; } }
+    margin-top: 30px; }
+  .principal {
+    font-size: 25px; } }
 
 .nuestro {
-  text-align: center;
-  padding: 50px; }
+  text-align: center; }
 
 .textoEstudio {
   line-height: 300%;
   text-align: center;
-  margin-bottom: 100px; }
+  color: black; }
+
+.fotofondo {
+  background-image: linear-gradient(rgba(250, 246, 246, 0.521), rgba(173, 169, 169, 0.623)), url(../imagenes/fotofondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .container {
+  color: black;
   text-align: center;
   font-size: 28px; }
 
